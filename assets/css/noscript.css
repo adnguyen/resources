@@ -6,6 +6,19 @@
 
 /* Banner */
 
+body.is-preload #banner h1 {
+	-moz-transform: none;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	opacity: 1;
+}
+
+	body.is-preload #banner h1:before, body.is-preload #banner h1:after {
+		width: 100%;
+	}
+
+
 	body.is-preload #banner h2 {
 		-moz-transform: none;
 		-webkit-transform: none;
@@ -18,17 +31,7 @@
 			width: 100%;
 		}
 
-		body.is-preload #banner h1 {
-			-moz-transform: none;
-			-webkit-transform: none;
-			-ms-transform: none;
-			transform: none;
-			opacity: 1;
-		}
 
-			body.is-preload #banner h1:before, body.is-preload #banner h1:after {
-				width: 100%;
-			}
 
 	body.is-preload #banner .more {
 		-moz-transform: none;
